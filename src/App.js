@@ -22,7 +22,7 @@ function App() {
           onChange={(event) => setValue(event.target.value)}
         />
       </form>
-      <WeatherWidget />
+      <WeatherWidget city={city}/>
     </div>
   );
 }

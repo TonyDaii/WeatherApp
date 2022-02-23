@@ -1,0 +1,30 @@
+.weather-widget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    min-width: 300px;
+    background: linear-gradient(270deg,rgba(255,255,255, .5), rgba(255,255,255, .2));;
+    // box-shadow: 20px 10px 10px rgba(#2b2bbd, .5);
+    filter: drop-shadow(20px 10px 10px #2b2bbd);
+    color: #ffffff;
+    &__city {
+      font-weight: bold;
+      font-size: 1.5em;
+      margin-bottom: 0;
+      line-height: .1;
+    }
+    &__desc {
+      opacity: .5;
+      font-size: .9em;
+    }
+    &__temperature {
+      font-size: 3em;
+      sup {
+        font-size: .4em;
+      }
+      font-weight: bold;
+    }
+  }
