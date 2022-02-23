@@ -1,0 +1,20 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,rgb(2, 164, 204), rgb(255, 96, 242));
+  }
+  
+  .form__input {
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: .5rem 1rem;
+    color: rgb(136, 180, 194);
+    font-weight: bold;
+    &::placeholder {
+      opacity: .4;
+    }
+  }
